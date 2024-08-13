@@ -1,1 +1,1 @@
-# terraform_devops
+# terraform-devops
