@@ -4,6 +4,13 @@ output "instance_id" {
   value       = aws_instance.app_server.id
 }
 
+output "instance_private_ip" {
+  description = "private ip address of the EC2 instance"
+  value       = aws_instance.app_server.private_ip
+
+}
+
+
 output "instance_public_ip" {
   description = "public ip address of the EC2 instance"
   value       = aws_instance.app_server.public_ip
